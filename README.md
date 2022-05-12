@@ -3,6 +3,8 @@
 ## Project setup
 ```
 npm install
+npm install json-server -D
+npm install axios
 ```
 
 ### Compiles and hot-reloads for development
@@ -22,3 +24,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Run Json server
+..\src\data> json-server --watch data.json
