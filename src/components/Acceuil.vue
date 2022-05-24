@@ -124,7 +124,9 @@ export default {
   },
   async created() {
     try {
-      const res = await axios.get(`http://localhost:3000/items/`);
+      // const res = await axios.get(`http://localhost:3000/items/`);
+       const res = await axios.get(`https://my-json-server.typicode.com/hhachich/JsonAPI-PieceGarage/items
+       `);
       this.items = res.data;
       this.affichePanier = false;
       console.log(res.data);
@@ -145,8 +147,10 @@ export default {
     },
     async findByCategorie(categorie) {
       try {
-        const res = await axios.get(
-          "http://localhost:3000/items?categorie=" + categorie + ""
+        // const res = await axios.get(
+        //   "http://localhost:3000/items?categorie=" + categorie + ""
+          const res = await axios.get(
+          "https://my-json-server.typicode.com/hhachich/JsonAPI-PieceGarage/items?categorie=" + categorie + ""
         );
         this.affichePanier = false;
         this.items = res.data;
@@ -156,7 +160,8 @@ export default {
     },
     async findAll() {
       try {
-        const res = await axios.get("http://localhost:3000/items");
+        // const res = await axios.get("http://localhost:3000/items");
+        const res = await axios.get("https://my-json-server.typicode.com/hhachich/JsonAPI-PieceGarage/items");
         this.affichePanier = false;
         this.items = res.data;
       } catch (error) {
