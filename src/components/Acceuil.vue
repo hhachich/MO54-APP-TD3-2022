@@ -87,8 +87,10 @@
               >Supprimer du panier</b-button
             >
           </b-card>
+
         </div>
       </b-card-group>
+     <h3>total : {{totalPrixPanier}} </h3> 
     </div>
   </div>
 </template>
@@ -100,6 +102,7 @@ export default {
     return {
       items: [],
       panier: [],
+      totalPrixPanier:0,
       affichePanier: false,
       categories: [
         { id: 1, cat: "amortisseur" },
@@ -131,12 +134,14 @@ export default {
   },
   methods: {
     addItem(item) {
-      console.log(item);
+      console.log(item.prix);
       this.panier.push(item);
+      this.totalPrixPanier=parseInt(this.totalPrixPanier)+ parseInt(item.prix);
     },
     deleteItem(item) {
       console.log(item);
       this.panier.splice(this.panier.indexOf(item), 1);
+      this.totalPrixPanier=parseInt(this.totalPrixPanier)- parseInt(item.prix);
     },
     async findByCategorie(categorie) {
       try {
