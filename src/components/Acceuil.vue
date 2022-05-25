@@ -104,20 +104,20 @@ export default {
       totalPrixPanier: 0,
       affichePanier: false,
       categories: [
-        { id: 1, cat: "amortisseur" },
-        { id: 2, cat: "bougie" },
-        { id: 3, cat: "essuie-glaces" },
-        { id: 4, cat: "frein" },
-        { id: 5, cat: "led" },
-        { id: 6, cat: "levier de vitesse" },
-        { id: 7, cat: "miroire" },
-        { id: 8, cat: "moteur" },
-        { id: 9, cat: "pare-chocs" },
-        { id: 10, cat: "pedale" },
-        { id: 11, cat: "porte" },
-        { id: 12, cat: "roue" },
-        { id: 13, cat: "siege" },
-        { id: 14, cat: "volant" },
+        { id: 1, cat: "Amortisseur" },
+        { id: 2, cat: "Bougie" },
+        { id: 3, cat: "Essuie-glaces" },
+        { id: 4, cat: "Frein" },
+        { id: 5, cat: "Led" },
+        { id: 6, cat: "Levier de vitesse" },
+        { id: 7, cat: "Miroir" },
+        { id: 8, cat: "Moteur" },
+        { id: 9, cat: "Pare-chocs" },
+        { id: 10, cat: "Pédale" },
+        { id: 11, cat: "Porte" },
+        { id: 12, cat: "Roue" },
+        { id: 13, cat: "Siège" },
+        { id: 14, cat: "Volant" },
       ],
     };
   },
@@ -137,7 +137,7 @@ export default {
   methods: {
     addItem(item) {
       if (
-        confirm("vous voullez ajouter :\n" + item.name + " \nà votre panier")
+        confirm("Voulez-vous ajouter à votre panier cet article :\n" + item.name )
       ) {
         console.log(item.prix);
         this.panier.push(item);
@@ -147,7 +147,7 @@ export default {
     },
     deleteItem(item) {
       if (
-        confirm("vous voullez supprimer :\n" + item.name + " \nde votre panier")
+        confirm("Voulez-vous supprimer cet article :\n" + item.name )
       ) {
         console.log(item);
         this.panier.splice(this.panier.indexOf(item), 1);

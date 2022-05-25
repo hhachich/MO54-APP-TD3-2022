@@ -2,184 +2,184 @@
     "items": [
         {
             "id": 1,
-            "name": "pare-chocs MERCEDES noir",
+            "name": "Pare-chocs MERCEDES noir",
             "prix": "200€",
-            "categorie": "pare-chocs",
+            "categorie": "Pare-chocs",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.99C7r5LJ3Fs5xFhoMMBW9gHaHa%26pid%3DApi&f=1"
         },
         {
             "id": 2,
-            "name": "essuie-glaces BMW",
+            "name": "Essuie-glaces BMW",
             "prix": "20€",
-            "categorie": "essuie-glaces",
+            "categorie": "Essuie-glaces",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.DrB4j9lA2AFz3QGN0V8YrAHaGD%26pid%3DApi&f=1"
         },
         {
             "id": 4,
-            "name": "moteur BMW 89",
+            "name": "Moteur BMW 89",
             "prix": "50€",
-            "categorie": "moteur",
+            "categorie": "Moteur",
             "img": "https://media.gettyimages.com/photos/power-generator-picture-id592641404?k=20&m=592641404&s=612x612&w=0&h=u-gGivVDHY-oOY9BkDd7GE36B138EqDwMEkiFANLBAE="
         },
         {
             "id": 5,
-            "name": "essuie-glaces KIA",
+            "name": "Essuie-glaces KIA",
             "prix": "10€",
-            "categorie": "essuie-glaces",
+            "categorie": "Essuie-glaces",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.SRXCZty2MjA5wQGvz43VFAHaFP%26pid%3DApi&f=1"
         },
         {
             "id": 6,
-            "name": "levier de vitesse KIA",
+            "name": "Levier de vitesse KIA",
             "prix": "20€",
-            "categorie": "levier de vitesse",
+            "categorie": "Levier de vitesse",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.propiecevsp.fr%2Fc%2F745-tm_home_default%2Flevier-de-vitesse-voiture-sans-permis.jpg&f=1&nofb=1"
         },
         {
             "id": 7,
-            "name": "frein MERCEDES",
+            "name": "Frein MERCEDES",
             "prix": "50€",
-            "categorie": "frein",
+            "categorie": "Frein",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.uJM1Y_pZoBNtwc0GMfpKuwAAAA%26pid%3DApi&f=1"
         },
         {
             "id": 8,
-            "name": "moteur KIA",
+            "name": "Moteur KIA",
             "prix": "10€",
-            "categorie": "moteur",
+            "categorie": "Moteur",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.-TxwLdYr0_e0Ofv5iRgdPAHaE7%26pid%3DApi&f=1"
         },
         {
             "id": 9,
-            "name": "roue TOYOTA",
+            "name": "Roue TOYOTA",
             "prix": "20€",
-            "categorie": "roue",
+            "categorie": "Roue",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.zTxnoF9FiWoU-C6AFy34BAHaG_%26pid%3DApi&f=1"
         },
         {
             "id": 10,
-            "name": "moteur TOYOTA",
+            "name": "Moteur TOYOTA",
             "prix": "50€",
-            "categorie": "moteur",
+            "categorie": "Moteur",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.sduOB2HAv5rrGM5fR8XMSwHaGY%26pid%3DApi&f=1"
         },
         {
             "id": 11,
-            "name": "roue KIA",
+            "name": "Roue KIA",
             "prix": "10€",
-            "categorie": "roue",
+            "categorie": "Roue",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.Xztvo6OcQyRZ-N5zpu-iVQHaHa%26pid%3DApi&f=1"
         },
         {
             "id": 12,
-            "name": "roue BMW",
+            "name": "Roue BMW",
             "prix": "20€",
-            "categorie": "roue",
+            "categorie": "Roue",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.e6rr_4ZSIwC1ujhL42vWtgHaHa%26pid%3DApi&f=1"
         },
         {
             "id": 13,
-            "name": "siege BMW",
+            "name": "Siège BMW",
             "prix": "50€",
-            "categorie": "siege",
+            "categorie": "Siège",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.XaSBdBcRZdBlzi6DQMZuGAHaF1%26pid%3DApi&f=1"
         },
         {
             "id": 14,
-            "name": "siege Nissan",
+            "name": "Siège Nissan",
             "prix": "10€",
-            "categorie": "siege",
+            "categorie": "Siège",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.M-g228gJw0HvWl9XxMjN9wHaHa%26pid%3DApi&f=1"
         },
         {
             "id": 15,
-            "name": "moteur MINI",
+            "name": "Moteur MINI",
             "prix": "20€",
-            "categorie": "moteur",
+            "categorie": "Moteur",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.2kEm_oDPHO0wA6_6E8kdeAHaF1%26pid%3DApi&f=1"
         },
         {
             "id": 16,
-            "name": "miroire Nissan",
+            "name": "Miroir Nissan",
             "prix": "50€",
-            "categorie": "miroire",
+            "categorie": "Miroir",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.QaQ_FPjPpl7IxLQk0lO9jgHaFj%26pid%3DApi&f=1"
         },
         {
             "id": 17,
-            "name": "miroire JAGUAR",
+            "name": "Miroir JAGUAR",
             "prix": "10€",
-            "categorie": "miroire",
+            "categorie": "Miroir",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.59pSKe6SSmmkEB_Z4SJRyQHaEx%26pid%3DApi&f=1"
         },
         {
             "id": 20,
-            "name": "porte PEUGEOT",
+            "name": "Porte PEUGEOT",
             "prix": "20€",
-            "categorie": "porte",
+            "categorie": "Porte",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.MaUrysYEDoZH3r8UywhRCgHaF0%26pid%3DApi&f=1"
         },
         {
             "id": 21,
-            "name": "porte Nissan",
+            "name": "Porte Nissan",
             "prix": "50€",
-            "categorie": "porte",
+            "categorie": "Porte",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.esu6H2-1wFjpyvVojspPHAHaGU%26pid%3DApi&f=1"
         },
         {
             "id": 22,
-            "name": "pedale PEUGEOT",
+            "name": "Pédale PEUGEOT",
             "prix": "20€",
-            "categorie": "pedale",
+            "categorie": "Pédale",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.VXlRFHyDamwvVk58ho0bMwHaEo%26pid%3DApi&f=1"
         },
         {
             "id": 23,
-            "name": "amortisseur MINI",
+            "name": "Amortisseur MINI",
             "prix": "20€",
-            "categorie": "amortisseur",
+            "categorie": "Amortisseur",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.-X7E4iuNAX79Bdc06AHjOAHaHa%26pid%3DApi&f=1"
         },
         {
             "id": 24,
-            "name": "amortisseur PEUGEOT",
+            "name": "Amortisseur PEUGEOT",
             "prix": "20€",
-            "categorie": "amortisseur",
+            "categorie": "Amortisseur",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.rXmkBoUJ3kDWt2WWO6YEKwHaHa%26pid%3DApi&f=1"
         },
         {
             "id": 25,
-            "name": "volant KIA",
+            "name": "Volant KIA",
             "prix": "20€",
-            "categorie": "volant",
+            "categorie": "Volant",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.D9Myo-6g1B0Psn9k5oPiEQHaHa%26pid%3DApi&f=1"
         },
         {
             "id": 26,
-            "name": "volant MERCEDEC",
+            "name": "Volant MERCEDEC",
             "prix": "20€",
-            "categorie": "volant",
+            "categorie": "Volant",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.LIDfUXsis3yhm7kxrFVFRAHaHa%26pid%3DApi&f=1"
         },
         {
             "id": 27,
-            "name": "bougie MERCEDEC",
+            "name": "Bougie MERCEDEC",
             "prix": "20€",
-            "categorie": "bougie",
+            "categorie": "Bougie",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.Naa6h9n-tbdMBthWBGyHPwHaHa%26pid%3DApi&f=1"
         },
         {
             "id": 28,
-            "name": "bougie KIA",
+            "name": "Bougie KIA",
             "prix": "20€",
-            "categorie": "bougie",
+            "categorie": "Bougie",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.MUoBP6SYuMvKko6o_tyUNQAAAA%26pid%3DApi&f=1"
         },
         {
             "id": 29,
-            "name": "led MERCEDEC",
+            "name": "Led MERCEDEC",
             "prix": "20€",
-            "categorie": "led",
+            "categorie": "Led",
             "img": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.eLg-JcQoIsw1KatG8P-VOAHaHa%26pid%3DApi&f=1"
         }
     ]
