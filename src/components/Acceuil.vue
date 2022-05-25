@@ -21,7 +21,7 @@
           <b-nav-item v-on:click="ShowPanier(true)"
             >Panier: {{ panier.length }}
           </b-nav-item>
-          
+
           <b-nav-item-dropdown text="Lang" right>
             <b-dropdown-item href="#">FR</b-dropdown-item>
             <b-dropdown-item href="#">EN</b-dropdown-item>
@@ -53,11 +53,11 @@
               {{ item.name }}
             </b-card-header>
             <b-card-img-lazy :src="item.img" height="200"></b-card-img-lazy>
-            <b-card-text> Categorie : {{ item.categorie }} </b-card-text>
+            <b-card-text> Catégorie : {{ item.categorie }} </b-card-text>
             <b-card-text> Prix : {{ item.prix }} </b-card-text>
             <b-button variant="dark" v-on:click="addItem(item)"
-              >Ajouter au panier</b-button
-            >
+              >Ajouter au panier
+            </b-button>
           </b-card>
         </div>
       </b-card-group>
@@ -81,16 +81,15 @@
               {{ pan.name }}
             </b-card-header>
             <b-card-img-lazy :src="pan.img" height="200"></b-card-img-lazy>
-            <b-card-text> Categorie : {{ pan.categorie }} </b-card-text>
+            <b-card-text> Catégorie : {{ pan.categorie }} </b-card-text>
             <b-card-text> Prix : {{ pan.prix }} </b-card-text>
             <b-button variant="danger" v-on:click="deleteItem(pan)"
               >Supprimer du panier</b-button
             >
           </b-card>
-
         </div>
       </b-card-group>
-     <h3>total : {{totalPrixPanier}} </h3> 
+      <h3>Total : {{ totalPrixPanier }} €</h3>
     </div>
   </div>
 </template>
@@ -102,12 +101,12 @@ export default {
     return {
       items: [],
       panier: [],
-      totalPrixPanier:0,
+      totalPrixPanier: 0,
       affichePanier: false,
       categories: [
         { id: 1, cat: "amortisseur" },
         { id: 2, cat: "bougie" },
-        { id: 3, cat: "essuie-glaces"},
+        { id: 3, cat: "essuie-glaces" },
         { id: 4, cat: "frein" },
         { id: 5, cat: "led" },
         { id: 6, cat: "levier de vitesse" },
@@ -125,7 +124,8 @@ export default {
   async created() {
     try {
       // const res = await axios.get(`http://localhost:3000/items/`);
-       const res = await axios.get(`https://my-json-server.typicode.com/hhachich/JsonAPI-PieceGarage/items
+      const res =
+        await axios.get(`https://my-json-server.typicode.com/hhachich/JsonAPI-PieceGarage/items
        `);
       this.items = res.data;
       this.affichePanier = false;
@@ -136,21 +136,33 @@ export default {
   },
   methods: {
     addItem(item) {
-      console.log(item.prix);
-      this.panier.push(item);
-      this.totalPrixPanier=parseInt(this.totalPrixPanier)+ parseInt(item.prix);
+      if (
+        confirm("vous voullez ajouter :\n" + item.name + " \nà votre panier")
+      ) {
+        console.log(item.prix);
+        this.panier.push(item);
+        this.totalPrixPanier =
+          parseInt(this.totalPrixPanier) + parseInt(item.prix);
+      }
     },
     deleteItem(item) {
-      console.log(item);
-      this.panier.splice(this.panier.indexOf(item), 1);
-      this.totalPrixPanier=parseInt(this.totalPrixPanier)- parseInt(item.prix);
+      if (
+        confirm("vous voullez supprimer :\n" + item.name + " \nde votre panier")
+      ) {
+        console.log(item);
+        this.panier.splice(this.panier.indexOf(item), 1);
+        this.totalPrixPanier =
+          parseInt(this.totalPrixPanier) - parseInt(item.prix);
+      }
     },
     async findByCategorie(categorie) {
       try {
         // const res = await axios.get(
         //   "http://localhost:3000/items?categorie=" + categorie + ""
-          const res = await axios.get(
-          "https://my-json-server.typicode.com/hhachich/JsonAPI-PieceGarage/items?categorie=" + categorie + ""
+        const res = await axios.get(
+          "https://my-json-server.typicode.com/hhachich/JsonAPI-PieceGarage/items?categorie=" +
+            categorie +
+            ""
         );
         this.affichePanier = false;
         this.items = res.data;
@@ -161,7 +173,9 @@ export default {
     async findAll() {
       try {
         // const res = await axios.get("http://localhost:3000/items");
-        const res = await axios.get("https://my-json-server.typicode.com/hhachich/JsonAPI-PieceGarage/items");
+        const res = await axios.get(
+          "https://my-json-server.typicode.com/hhachich/JsonAPI-PieceGarage/items"
+        );
         this.affichePanier = false;
         this.items = res.data;
       } catch (error) {
@@ -175,7 +189,6 @@ export default {
 };
 </script>
 <style>
-
 .ml-auto {
   margin-left: auto;
 }
